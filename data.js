@@ -64,6 +64,7 @@ const requestion = {
 }
 
 const messages = [
+  'Type in the sentence you want me to speak!',
   'I could see your personality.',
   'Hava a nice day! Bye bye~♪.'
 ]

@@ -11,7 +11,7 @@ module.exports = class Assesment {
       type: 'select',
       choices: questions.choice
     })
-    await this.bear.speak(questions.message)
+    await this.bear.speak(this.bear.strSlice(questions.message))
     const answer = await prompt.run()
     return answer
   }

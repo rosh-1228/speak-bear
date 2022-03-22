@@ -28,11 +28,11 @@ module.exports = class Bear {
     await this.repeat(message)
   }
 
-  async input () {
+  async input (message) {
     const prompt = new Input({
       initial: 'ex) Hello!'
     })
-    await this.speak(this.strSlice('Type in the sentence you want me to speak!'))
+    await this.speak(this.strSlice(message))
     const input = await prompt.run()
     await this.speak(this.strSlice(input))
   }
