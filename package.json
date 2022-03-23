@@ -1,6 +1,6 @@
 {
   "name": "speak-bear",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The bears speak like characters in an RPG.",
   "main": "index.js",
   "scripts": {
