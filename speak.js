@@ -50,12 +50,12 @@ module.exports = class Bear {
 
   strSlice (message) {
     const texts = []
-    let slash = 2
+    let slice = 2
     if (message.match(/^[^\x01-\x7E\xA1-\xDF]+$/)) {
-      slash = 4
+      slice = 4
     }
-    for (let i = 0; i < message.length; i += (process.stdout.columns / slash)) {
-      texts.push(message.substring(i, i + (process.stdout.columns / slash)))
+    for (let i = 0; i < message.length; i += (process.stdout.columns / slice)) {
+      texts.push(message.substring(i, i + (process.stdout.columns / slice)))
       texts.push('\n')
     }
     return texts.join('')
