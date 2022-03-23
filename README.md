@@ -6,11 +6,11 @@ The bears will also perform personality test.
 
 The personality test is very bullshit.
 The questions and answers are made up by the author's imagination.
-Therefore, even if you answer a question in the same way, a different answer will be output each time.
+Also, even if the questions are answered in the same way, a different answer is output each time.
 
 性格診断テストは非常にデタラメです。
 質問と答えは作者の思いつきで作成したものです。
-そのため、質問に同じように答えても毎回違う回答が出力されます。
+また、質問に同じように答えても毎回違う回答が出力されます。
 
 # Usage
 ```
