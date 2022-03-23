@@ -1,0 +1,37 @@
+{
+  "name": "speak-bear",
+  "version": "1.0.0",
+  "description": "The bears speak like characters in an RPG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "speak-bear": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosh-1228/speak-bear.git"
+  },
+  "keywords": [
+    "speak",
+    "bear"
+  ],
+  "author": "rosh-1228",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosh-1228/speak-bear/issues"
+  },
+  "homepage": "https://github.com/rosh-1228/speak-bear#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "enquirer": "^2.3.6"
+  }
+}
