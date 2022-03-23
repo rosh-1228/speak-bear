@@ -2,6 +2,16 @@
 The bears speak like characters in an RPG.
 The bears will also perform personality test.
 
+## **Caution**
+
+The personality test is very bullshit.
+The questions and answers are made up by the author's imagination.
+Therefore, even if you answer a question in the same way, a different answer will be output each time.
+
+性格診断テストは非常にデタラメです。
+質問と答えは作者の思いつきで作成したものです。
+そのため、質問に同じように答えても毎回違う回答が出力されます。
+
 # Usage
 ```
 Usage: speak-bear
