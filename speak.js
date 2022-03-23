@@ -12,7 +12,7 @@ module.exports = class Bear {
       setTimeout(() => {
         process.stdout.write(word)
         resolve(word)
-      }, 15)
+      }, 20)
     })
   }
 
