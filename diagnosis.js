@@ -1,7 +1,7 @@
 const { Select } = require('enquirer')
 const Bear = require('./speak')
 
-module.exports = class Assesment {
+module.exports = class Diagnosis {
   constructor () {
     this.bear = new Bear()
   }

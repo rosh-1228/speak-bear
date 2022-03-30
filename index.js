@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const Bear = require('./speak')
-const Assesment = require('./assesment')
+const Assesment = require('./diagnosis')
 const program = require('commander')
 const assesment = new Assesment()
 const bear = new Bear()
