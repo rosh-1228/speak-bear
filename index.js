@@ -6,7 +6,7 @@ const assesment = new Assesment()
 const bear = new Bear()
 
 program
-  .version('1.0.0')
+  .version('0.0.4')
   .description('When run without options, the bear will perform a personality test.')
   .option('-q', 'start personality test')
   .option('-j', 'change Japanese')
