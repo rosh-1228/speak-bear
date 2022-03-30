@@ -16,7 +16,7 @@ module.exports = class Diagnosis {
     return answer
   }
 
-  async enter () {
+  enter () {
     const readline = require('readline').createInterface({
       input: process.stdin,
       output: process.stdout
